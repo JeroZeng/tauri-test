@@ -10,7 +10,7 @@ on:
 jobs:
   build-appimage:
     name: Build AppImage on Linux x64
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout
